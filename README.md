@@ -1,4 +1,19 @@
-tp2
-===
+def hora_actual = new Date().hours
 
-Intento de realizar el tp nº2 del módulo 3
+if (hora_actual > 0 && hora_actual <5) {
+
+            println "Buenas Noches"
+
+} else if (hora_actual < 12) {
+
+              println "Buenos Dias"
+
+} else if (hora_actual < 19){
+
+                        println "Buenas tardes"
+
+} else  {
+
+            println "Buenas Noches"
+
+ }
